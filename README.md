@@ -6,14 +6,14 @@ This project tells us about the data version control.
 
 These are the steps:
 
-creat git repo and clone it in local
-creat mycode.py and addcode to fit. (it willsave a csv file to a new "data" folder)
-do a git add-commit-push before initializing dvc
-pip install dvc
-Now we do "dvc init"(creats .dvcignore, .dvc)
-Now do "mkdir s3"(createsa new s3 directory)
-now we do "dvc remote add -d myremote s3"
-Next "dvc add data/"
+creat git repo and clone it in local.
+creat mycode.py and addcode to fit. (it willsave a csv file to a new "data" folder).
+do a git add-commit-push before initializing dvc.
+pip install dvc.
+Now we do "dvc init"(creats .dvcignore, .dvc).
+Now do "mkdir s3"(createsa new s3 directory).
+now we do "dvc remote add -d myremote s3".
+Next "dvc add data/".
  To stop tracking from Git:
             git rm -r --cached 'data'
             git commit -m "stop tracking data" 
